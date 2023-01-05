@@ -11,7 +11,7 @@ public class AjaxResponse {
 
     public AjaxResponse(){}
 
-    public static AjaxResponse success(Object obj){
+    public static AjaxResponse success(){
         AjaxResponse ajaxResponse= new AjaxResponse();
         ajaxResponse.setIsok(true);
         ajaxResponse.setCode(200);
